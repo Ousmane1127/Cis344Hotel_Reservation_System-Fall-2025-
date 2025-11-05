@@ -1,0 +1,79 @@
+/* ===== General Page Setup ===== */
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #6495ED; /* Cornflower blue background */
+  color: #222; /* Dark text for contrast */
+  text-align: center; /* Centers inline-block elements horizontally */
+}
+
+/* ===== Hotel Title with Colored Box & Shadow ===== */
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5rem;
+  color: white;
+  background-color: #c59d5f;  /* Gold box */
+  display: inline-block;      /* Keeps background snug around text */
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 60px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Tagline ===== */
+.tagline {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.tagline span {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+  margin: 1.5rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* ===== Description ===== */
+.description {
+  max-width: 700px;
+  margin: 2rem auto;
+  font-size: 1rem;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===== Image Gallery ===== */
+.gallery {
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 600px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,11 @@
+use hotel_reservation_sys;
+describe bookings;
+describe charges;
+describe employee;
+describe guest;
+describe manager;
+describe reservations;
+describe room_assignment;
+describe rooms;
+describe staff;
+describe transactions;
